@@ -1,0 +1,48 @@
+{
+  "name": "ng2-seed",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "typings install"
+  },
+  "jspm": {
+    "dependencies": {
+      "@angular/common": "npm:@angular/common@^2.0.0-rc.3",
+      "@angular/compiler": "npm:@angular/compiler@^2.0.0-rc.3",
+      "@angular/core": "npm:@angular/core@^2.0.0-rc.3",
+      "@angular/http": "npm:@angular/http@^2.0.0-rc.3",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^2.0.0-rc.3",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^2.0.0-rc.3",
+      "@angular/router": "npm:@angular/router@^3.0.0-alpha.7",
+      "@angular/router-deprecated": "npm:@angular/router-deprecated@^2.0.0-rc.2",
+      "es6-promise": "npm:es6-promise@^3.2.1",
+      "es6-shim": "github:es-shims/es6-shim@^0.35.0",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@5.0.0-beta.6",
+      "zone.js": "npm:zone.js@0.6.12"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "devDependencies": {
+    "@angular/common": "^2.0.0-rc.3",
+    "@angular/compiler": "^2.0.0-rc.3",
+    "@angular/core": "^2.0.0-rc.3",
+    "@angular/http": "^2.0.0-rc.3",
+    "@angular/platform-browser": "^2.0.0-rc.3",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.3",
+    "@angular/router": "^3.0.0-alpha.7",
+    "@angular/router-deprecated": "^2.0.0-rc.2",
+    "browser-sync": "^2.12.12",
+    "core-js": "^2.4.0",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "0.35.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "jspm": "^0.16.36",
+    "typings": "^1.0.4"
+  }
+}

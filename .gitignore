@@ -1,0 +1,8 @@
+.DS_Store
+jspm_packages/
+node_modules/
+typings/
+app/**/*.js
+app/**/*.js.map
+app/**/*.css
+*.log
