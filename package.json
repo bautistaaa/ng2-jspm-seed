@@ -43,6 +43,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.13.6",
     "jspm": "^0.16.36",
-    "typings": "^1.0.4"
+    "typings": "^1.0.4",
+    "zone.js": "^0.6.12"
   }
 }
