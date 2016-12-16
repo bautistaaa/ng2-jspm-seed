@@ -1,10 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { HTTP_PROVIDERS } from '@angular/http';
-import 'rxjs/Rx';   // Load all features
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  template: `<h1>Hello {{name}}</h1>`,
 })
-
-export class AppComponent { }
+export class AppComponent  { name = 'Angular'; }
