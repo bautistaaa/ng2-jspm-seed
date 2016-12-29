@@ -1,7 +1,4 @@
 {
     "debug": true,
-    "env": "prod",
-    "base_href": "@Url.Content(\"~\")",
-    "href_prefix": "@Url.Content(\"~\")Areas/ProgramQuickView/Web/",
-    "base_image_url": "@Url.Content(\"~\")Content/themes/hbdiv/Images/"
+    "env": "prod"
 }

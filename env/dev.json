@@ -1,8 +1,4 @@
 {
-    "debug": true,
-    "env": "dev",
-    "base_href": "/",
-    "href_prefix": "@Url.Content(\"~\")Areas/ProgramQuickView/Web/",
-    "base_url": "http://localhost:8031/",
-    "base_image_url": "@Url.Content(\"~\")Content/themes/hbdiv/Images/"
+    "debug": false,
+    "env": "dev"
 }
