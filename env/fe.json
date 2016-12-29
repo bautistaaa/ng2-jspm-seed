@@ -1,0 +1,8 @@
+{
+    "debug": true,
+    "env": "fe",
+    "base_href": "/",
+    "href_prefix": "",
+    "base_image_url": "images/",
+    "base_url" : "http://localhost:8031/"
+}
