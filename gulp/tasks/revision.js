@@ -19,7 +19,7 @@ gulp.task('rev-css', function() {
 });
 
 //replace the reference to the bundled js in index with the new revisioned js
-gulp.task('revcollect', ['rev-js', 'rev-css'], function() {
+gulp.task('revision', ['rev-js', 'rev-css'], function() {
     return gulp.src(['./rev/**/*.json', './app/aot/index-aot.html'])
         .pipe(revCollector())
         .pipe(gulp.dest('dist'));
