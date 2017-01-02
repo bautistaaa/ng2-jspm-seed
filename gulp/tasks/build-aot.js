@@ -1,10 +1,10 @@
 'use strict';
 
-const gulp = require('gulp');
-const config = require('../config')();
+const gulp        = require('gulp');
+const config      = require('../config')();
 const runSequence = require('run-sequence');
-const isWin = /^win/.test(process.platform);
-const exec = require('child_process').exec;
+const isWin       = /^win/.test(process.platform);
+const exec        = require('child_process').exec;
 
 // helper function for running ngc and tree shaking tasks
 const run_proc = (cmd, callBack, options) => {

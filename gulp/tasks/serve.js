@@ -1,9 +1,9 @@
 'use strict';
 
-const gulp = require('gulp');
+const gulp        = require('gulp');
 const browserSync = require('browser-sync');
-const config = require('../config')();
-let reload = browserSync.reload;
+const config      = require('../config')();
+let reload        = browserSync.reload;
 
 gulp.task('serve', () => {
     browserSync({

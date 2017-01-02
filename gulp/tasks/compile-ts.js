@@ -13,6 +13,6 @@ gulp.task('compile-ts', () => {
         .pipe(tsProject());
 
     return tsResult.js
-        .pipe(sourcemaps.write('.'))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest(config.folders.temp));
 });

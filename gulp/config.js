@@ -22,6 +22,7 @@ let folders = {
     dist: './dist',
     temp: './.tmp',
     app: './app',
+    rev: './rev',
     styles: './styles',
     images: './images',
     nodeModules: './node_modules',
