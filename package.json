@@ -3,8 +3,6 @@
   "version": "0.0.1",
   "scripts": {
     "clean": "gulp clean",
-    "compile-prod": "gulp preprocess compile --env prod",
-    "compile-dev": "gulp preprocess compile --env dev",
     "serve-dev": "gulp",
     "serve-prod": "gulp serve:prod"
   },
