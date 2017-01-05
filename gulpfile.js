@@ -17,7 +17,7 @@ gulp.task('serve:prod', () => {
         'clean',
         ['ts-lint', 'styles-dist'],
         'build-aot',
-        'revcollect',
+        'revision',
         'serve-dist'
     );
 });
